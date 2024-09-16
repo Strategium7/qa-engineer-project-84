@@ -1,3 +1,8 @@
 - summary: |
     Успешное добавление товара в корзину.
   status: pass
+
+  
+- summary: |
+    Успешная смена языка.
+  status: pass
