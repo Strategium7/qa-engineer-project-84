@@ -1,0 +1,12 @@
+- summary: |
+    В корзину добавляется отсутствующий товар.
+  environment: |
+    https://hexlet-products-store.vercel.app/products/136
+  steps-to-reproduce: |
+   1) Выбрать категорию Smartphones
+   2) Убрать галочку с In Stock
+   3) Добавить в корзину
+  expected-result: |
+    Товар не должен добавляться или должно выдавать ошибку\предупреждение об отсутствие товара
+  actual-result: |
+    Товар в кол-ве 0 добавляется в корзину
