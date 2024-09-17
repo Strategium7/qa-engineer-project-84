@@ -106,3 +106,15 @@
    Возле наименования языка должен быть флаг.
   actual-result: |
    Иконки флага нет.
+
+- summary: |
+    Нет возможности зарегистрироваться и залогиниться.
+  environment: |
+ Version 128.0.6613.138 (Official Build) (64-bit)
+  steps-to-reproduce: |
+    1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
+  expected-result: |
+   Вкладка для регистрации и логина.
+  actual-result: |
+   Возможности для регистрация и логина отсутствуют.
+
