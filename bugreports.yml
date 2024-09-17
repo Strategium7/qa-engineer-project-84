@@ -97,7 +97,7 @@
    Отсутсвует наименования чекбокса.
 
 - summary: |
-    Нет иконки на значке "English"
+    Нет иконки на значке языка "English"
   environment: |
  Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
