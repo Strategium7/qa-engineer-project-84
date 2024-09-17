@@ -45,3 +45,7 @@
 - summary: |
     Успешная авторизация.
  status: fail
+
+- summary: |
+    Отправка обратной связи.
+ status: fail
