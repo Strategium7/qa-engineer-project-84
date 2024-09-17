@@ -114,7 +114,7 @@
   steps-to-reproduce: |
     1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
   expected-result: |
-   Вкладка для регистрации и логина.
+   Имеется вкладка для регистрации и логина.
   actual-result: |
    Возможности для регистрация и логина отсутствуют.
 
