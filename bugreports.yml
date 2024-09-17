@@ -108,15 +108,26 @@
    Иконки флага нет.
 
 - summary: |
-    Нет возможности зарегистрироваться и залогиниться.
+    Нет возможности зарегистрироваться.
   environment: |
  Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
     1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
   expected-result: |
-   Имеется вкладка для регистрации и логина.
+   Имеется вкладка для регистрация.
   actual-result: |
-   Возможности для регистрация и логина отсутствуют.
+   Возможности для регистрация  отсутствуют.
+
+- summary: |
+    Нет возможности авторизоваться.
+  environment: |
+ Version 128.0.6613.138 (Official Build) (64-bit)
+  steps-to-reproduce: |
+    1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
+  expected-result: |
+   Имеется вкладка для авторизации.
+  actual-result: |
+   Возможности для авторизации отсутствуют.
 
 - summary: |
     На странице нет функции для обратной связи.
