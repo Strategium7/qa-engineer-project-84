@@ -20,36 +20,36 @@ status: fail
 
 - summary: |
     Адаптивность страницы на мобильных устройствах.
- status: fail
+status: fail
 
 - summary: |
     Проверка работы чекбоксов в Brand.
- status: pass
+status: pass
 
 - summary: |
     Успешное открытие карточки товара.
- status: pass
+status: pass
 
 - summary: |
     Корректный мэтч между категориями и брендами.
- status: fail
+status: fail
 
 - summary: |
     Проверка фильтра ценового диапазона.
- status: fail
+status: fail
 
 - summary: |
     Введение некорректной информации в строку Поиска товаров.
- status: pass
+status: pass
 
 - summary: |
     Успешная регистрация.
- status: fail
+status: fail
 
 - summary: |
     Успешная авторизация.
- status: fail
+status: fail
 
 - summary: |
     Отправка обратной связи.
- status: fail
+status: fail
