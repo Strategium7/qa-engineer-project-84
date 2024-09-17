@@ -1,22 +1,22 @@
 - summary: |
     Успешное добавление товара в корзину.
-  status: pass
+status: pass
 
 - summary: |
     Отображение товаров в корзине.
-  status: pass
+status: pass
 
 - summary: |
     Успешная смена языка с английского на русский.
-  status: fail
+status: fail
 
 - summary: |
     Успешная смена языка с русского на английский.
-  status: pass
+status: pass
 
 - summary: |
     Сделать заказ добавленных в корзину товаров.
- status: fail
+status: fail
 
 - summary: |
     Адаптивность страницы на мобильных устройствах.
