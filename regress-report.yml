@@ -82,7 +82,7 @@ bugreports:
       Одни и те же товары могут отображаться и при включенном и при выключенном In-Stock.
 
  
-- summary: |
+ - summary: |
       При выборе категории появляется белая строчка.
 environment: |
       Version 128.0.6613.138 (Official Build) (64-bit)
