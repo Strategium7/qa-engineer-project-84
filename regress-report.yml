@@ -58,42 +58,42 @@ test-cases:
 
 bugreports:
  - summary: |
-      Нет флагов во вкладке смены языка.
+     Нет флагов во вкладке смены языка.
    environment: |
-      Version 128.0.6613.138 (Official Build) (64-bit)
+     Version 128.0.6613.138 (Official Build) (64-bit)
    steps-to-reproduce: |
-      1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Открыть вкладку переключения языков.
+     1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+     2. Открыть вкладку переключения языков.
    expected-result: |
-      Должны быть флаги рядом с языками.
+     Должны быть флаги рядом с языками.
    actual-result: |
-      Флажков нет.
+     Флажков нет.
       
 
  - summary: |
-      Некорректная работа кнопки In-Stock.
+     Некорректная работа кнопки In-Stock.
    environment: |
       Version 128.0.6613.138 (Official Build) (64-bit)
    steps-to-reproduce: |
-      1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Нажать на In-Stock.
+     1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+     2. Нажать на In-Stock.
    expected-result: |
       При включении In-Stock должны отображаться товары на складе и при выключенном которых нет на складе.
    actual-result: |
-      Одни и те же товары могут отображаться и при включенном и при выключенном In-Stock.
+     Одни и те же товары могут отображаться и при включенном и при выключенном In-Stock.
       
       
  - summary: |
-      При выборе категории появляется белая строчка.
+     При выборе категории появляется белая строчка.
    environment: |
-      Version 128.0.6613.138 (Official Build) (64-bit)
+     Version 128.0.6613.138 (Official Build) (64-bit)
    steps-to-reproduce: |
-      1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Открыть категории.
+     1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+     2. Открыть категории.
    expected-result: |
-      Должны показываться только имеющиеся категории.
+     Должны показываться только имеющиеся категории.
    actual-result: |
-      Имеется белый пробел.
+     Имеется белый пробел.
  
 
 
