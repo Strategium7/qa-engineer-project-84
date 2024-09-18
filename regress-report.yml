@@ -1,7 +1,7 @@
 test-cases:
   - summary: |
        Успешное добавление товара в корзину.
- status: pass
+  status: pass
 
   - summary: |
       Отображение товаров в корзине.
@@ -29,19 +29,19 @@ test-cases:
 
   - summary: |
          Успешное открытие карточки товара.
- status: pass
+  status: pass
 
   - summary: |
          Проверка на корректный мэтч между категориями и брендами.
- status: fail
+  status: fail
 
   - summary: |
          Проверка фильтра ценового диапазона.
- status: fail
+  status: fail
 
   - summary: |
          Введение некорректной информации в строку Поиска товаров.
- status: pass
+  status: pass
     
   - summary: |
           Успешная регистрация.
@@ -49,11 +49,11 @@ test-cases:
 
   - summary: |
         Отправка обратной связи.
- status: pass
-
+  status: pass
+ 
   - summary: |
           Успешная авторизация в систему.
- status: pass
+  status: pass
     
 
 bugreports:
