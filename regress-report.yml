@@ -1,7 +1,7 @@
 test-cases:
-   - summary: |
+  - summary: |
        Успешное добавление товара в корзину.
-   status: pass
+  status: pass
   
   - summary: |
       Отображение товаров в корзине.
