@@ -70,7 +70,7 @@ bugreports:
       Флажков нет.
 
   - summary: |
-      Неккоректная работа кнопки In-Stock.
+      Некорректная работа кнопки In-Stock.
     environment: |
       Version 128.0.6613.138 (Official Build) (64-bit)
     steps-to-reproduce: |
@@ -81,17 +81,17 @@ bugreports:
     actual-result: |
       Одни и те же товары могут отображаться и при включенном и при выключенном In-Stock.
 
-        - summary: |
-      Неккоректная работа кнопки In-Stock.
+  - summary: |
+      При выборе категории появляется белая строчка.
     environment: |
       Version 128.0.6613.138 (Official Build) (64-bit)
     steps-to-reproduce: |
       1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Нажать на In-Stock.
+      2. Открыть категории.
     expected-result: |
-      При включении In-Stock должны отображаться товары на складе и при выключенном которых нет на складе.
+      Должны показываться только имеющиеся категории.
     actual-result: |
-      Одни и те же товары могут отображаться и при включенном и при выключенном In-Stock.
+      Имеется белый пробел.
 
 
       
