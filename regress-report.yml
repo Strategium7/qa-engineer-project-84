@@ -70,7 +70,7 @@ bugreports:
       Флажков нет.
       
 
-- summary: |
+ - summary: |
       Некорректная работа кнопки In-Stock.
   environment: |
       Version 128.0.6613.138 (Official Build) (64-bit)
