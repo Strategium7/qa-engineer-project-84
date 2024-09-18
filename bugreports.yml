@@ -24,6 +24,17 @@
    Перевод на русский лишь частичный.
 
 - summary: |
+    Некорректная верстка. Расположение элементов на странице слишком сдвинуто влево.
+  environment: |
+ Version 128.0.6613.138 (Official Build) (64-bit)
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+  expected-result: |
+   Элементы должны располагаться равномерно по всей ширине и длине страницы.
+  actual-result: |
+   Элементы слишком сдвинуты влево.
+
+- summary: |
     Нет возможности сделать заказ добавленных товаров.
   environment: |
  Version 128.0.6613.138 (Official Build) (64-bit)
