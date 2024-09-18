@@ -1,59 +1,59 @@
 test-cases:
   - summary: |
        Успешное добавление товара в корзину.
-    status: pass
+ status: pass
 
   - summary: |
       Отображение товаров в корзине.
-    status: pass
+  status: pass
 
   - summary: |
       Успешная смена языка с английского на русский.
-    status: fail
+  status: fail
 
   - summary: |
       Успешная смена языка с русского на английский.
-    status: pass
+   status: pass
 
   - summary: |
       Сделать заказ добавленных в корзину товаров.
-    status: fail
+  status: fail
 
   - summary: |
       Адаптивность страницы на мобильных устройствах.
-    status: pass
+  status: pass
 
   - summary: |
        Проверка работы чекбоксов в Brand.
-    status: pass
+  status: pass
 
   - summary: |
          Успешное открытие карточки товара.
-    status: pass
+ status: pass
 
   - summary: |
          Проверка на корректный мэтч между категориями и брендами.
-    status: fail
+ status: fail
 
   - summary: |
          Проверка фильтра ценового диапазона.
-    status: fail
+ status: fail
 
   - summary: |
          Введение некорректной информации в строку Поиска товаров.
-    status: pass
+ status: pass
     
   - summary: |
           Успешная регистрация.
-    status: pass
+  status: pass
 
   - summary: |
         Отправка обратной связи.
-    status: pass
+ status: pass
 
   - summary: |
           Успешная авторизация в систему.
-    status: pass
+ status: pass
     
 
 bugreports:
