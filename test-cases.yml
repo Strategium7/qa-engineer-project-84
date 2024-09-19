@@ -5,7 +5,7 @@
   prerequisites: |
    Открыта страница магазина.
   test-data: |
-            - 
+    no-data
   steps:
     - Нажимаем Add to the cart
     - Заходим в cart и проверяем были ли добавлены товары.
@@ -17,9 +17,9 @@
   requirement: |
     Добавленные товары должны отображаться в корзине.
   prerequisites:
-    -
+    no-data
   test-data: |
-    -
+    no-data
   steps:
     - Открываем страницу корзины.
   expected-result: |
@@ -32,7 +32,7 @@
   prerequisites:
     Открыт магазин на английском языке.
   test-data: |
-    - 
+    no-data
   steps:
     - Нажимаем на выбор языка "Russian".
   expected-result: |
@@ -45,7 +45,7 @@
   prerequisites:
     Открыт магазин на русском языке.
   test-data: |
-    - 
+    no-data
   steps:
     - Нажимаем на выбор языка "English".
   expected-result: |
@@ -58,7 +58,7 @@
   prerequisites:
     Добавлены необходимые товары в корзину.
   test-data: |
-    -
+    no-data
   steps:
     - Добавить товар в корзину
     - Нажать "Оформить заказ".
@@ -73,7 +73,7 @@
   prerequisites:
     Открыты страницы магазина.
   test-data: |
-    -
+    no-data
   steps:
     - Открываем магазин на мобильном устройстве.
   expected-result: |
@@ -86,7 +86,7 @@
   prerequisites:
     Открыта страница магазина.
   test-data: |
-    -
+    no-data
   steps:
     - Прокликиваем нужные нам чекбоксы.
   expected-result: |
@@ -99,7 +99,7 @@
   prerequisites:
     Открыть страницу с товарами.
   test-data: |
-    -
+    no-data
   steps:
     - Кликнуть на карточку с товаром.
   expected-result: |
@@ -112,7 +112,7 @@
   prerequisites:
     Открыть страницу с товарами.
   test-data: |
-    -
+    no-data
   steps:
     - Выбрать Категории.
     - Просмотреть появившееся ниже бренды.
@@ -127,7 +127,7 @@
   prerequisites:
     Открыть страницу с товарами.
   test-data: |
-    -
+    no-data
   steps:
     - Вписать ценовые значения От и До.
   expected-result: |
@@ -140,7 +140,7 @@
   prerequisites:
     Открыть страницу с товарами.
   test-data: |
-    -
+    no-data
   steps:
     - Вписать $!@ символы в стройку Поиска товаров.
   expected-result: |
@@ -153,7 +153,7 @@
   prerequisites:
     Открыта главная страница магазина.
   test-data: |
-    - 
+    no-data
   steps:
     - Заходим на главную страницу.
   expected-result: |
@@ -166,7 +166,7 @@
   prerequisites:
     Открыта главная страница магазина.
   test-data: |
-    - 
+    no-data
   steps:
     - Заходим на главную страницу.
   expected-result: |
@@ -179,7 +179,7 @@
   prerequisites:
     Открыта главная страница магазина.
   test-data: |
-    - 
+    no-data 
   steps:
     - Заходим на главную страницу.
   expected-result: |
