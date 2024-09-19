@@ -3,7 +3,7 @@
   requirement: |
     При нажатии Add to cart товар должен добавиться в корзину.
   prerequisites: |
-   Открыта страница магазина.
+    Открыта страница магазина.
   test-data: |
     no-data
   steps:
