@@ -1,57 +1,51 @@
-test-cases:
-  - summary: |
-      Успешное добавление товара в корзину.
-    status: pass
+- summary: |
+    Успешное добавление товара в корзину
+  status: pass
+  
+- summary: |
+    Отображение товаров в корзине
+  status: pass
 
-  - summary: |
-      Отображение товаров в корзине.
-    status: pass
+- summary: |
+    Успешная смена языка с английского на русский
+  status: pass
 
-  - summary: |
-      Успешная смена языка с английского на русский.
-    status: fail
-    
-  - summary: |
-      Успешная смена языка с русского на английский.
-    status: pass
+- summary: |
+    Успешная смена языка с английского на русский
+  status: fail
 
-  - summary: |
-      Сделать заказ добавленных в корзину товаров.
-    status: fail
+- summary: |
+    Сделать заказ добавленных в корзину товаров
+  status: fail
 
-  - summary: |
-      Адаптивность страницы на мобильных устройствах.
-    status: fail
+- summary: |
+    Адаптивность страницы на мобильных устройствах
+  status: fail
 
-  - summary: |
-      Проверка работы чекбоксов в Brand.
-    status: pass
-    
-  - summary: |
-      Успешное открытие карточки товара.
-    status: pass
-    
-  - summary: |
-      Корректный мэтч между категориями и брендами.
-    status: fail
+- summary: |
+    Проверка работы чекбоксов в Brand
+  status: pass
 
-  - summary: |
-      Проверка фильтра ценового диапазона.
-    status: fail
-    
-  - summary: |
-      Введение некорректной информации в строку Поиска товаров.
-    status: pass
+- summary: |
+    Успешное открытие карточки товара
+  status: pass
 
-  - summary: |
-      Успешная регистрация.
-    status: fail
+- summary: |
+    Корректный мэтч между категориями и брендами
+  status: fail
 
-  - summary: |
-      Успешная авторизация.
-    status: fail
-    
- - summary: |
-     Успешная отправка обратной связи.
-    status: fail
-    
+- summary: |
+    Проверка фильтра ценового диапазона
+  status: fail
+
+- summary: |
+    Успешная регистрация
+  status: fail
+
+- summary: |
+    Успешная авторизация
+  status: fail
+
+- summary: |
+    Успешная отправка обратной связи.
+  status: fail
