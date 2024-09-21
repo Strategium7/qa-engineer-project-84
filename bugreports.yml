@@ -1,41 +1,27 @@
 - summary: |
-    В корзину добавляется отсутствующий товар.
-  environment: |
-    https://hexlet-products-store.vercel.app/products/136
-  steps-to-reproduce: |
-    1. Выбрать категорию Smartphones
-    2. Убрать галочку с In Stock
-    3. Добавить в корзину
-  expected-result: |
-    Товар не должен добавляться или должно выдавать ошибку\предупреждение об отсутствие товара\кнопка должна быть выделена серым цветом
-  actual-result: |
-    Товар в кол-ве 0 добавляется в корзину
-    
-- summary: |
-    Страница переводит на русский язык лишь часть текста.
+    Не переводится описание на русский язык
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Переключить язык с английского на русский.
+    1. Переключить язык с английского на русский.
   expected-result: |
     Все страницы должны быть корректно переведены на русский язык.
   actual-result: |
     Перевод на русский лишь частичный.
 
 - summary: |
-    Некорректная верстка. Расположение элементов на странице слишком сдвинуто влево.
+    Сбита верстка у элементов в каталоге
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    no-data
   expected-result: |
     Элементы должны располагаться равномерно по всей ширине и длине страницы.
   actual-result: |
     Элементы слишком сдвинуты влево.
 
 - summary: |
-    Нет возможности сделать заказ добавленных товаров.
+    Нет страницы оплаты
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
@@ -45,33 +31,21 @@
   expected-result: |
     В появившемся модальном окне должна быть функция Оплатить.
   actual-result: |
-    Функции Оплатить нет, лишь информация о выбранных товарах.
+    Страницы оплаты нет
 
 - summary: |
-    Нет адаптивности страницы для мобильных устройств.
+    Нет мобильной версии сайта
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
-    1. Зайти на сайт магазина с мобильных устройств https://hexlet-products-store.vercel.app/
+    no-data
   expected-result: |
     Сайт должна подстраиваться под нужное разрешение.
   actual-result: |
     Сайт не имеет адаптивности.
 
 - summary: |
-    Выбранные категории не мэтчатся с брендами.
-  environment: |
-    Version 128.0.6613.138 (Official Build) (64-bit)
-  steps-to-reproduce: |
-    1. Выбрать нужную нам категорию товаров
-    2. Посмотреть какие бренды появляются после.
-  expected-result: |
-    Должен быть корректное совпадение выбранной категории товаров с выпадающими ниже брендами.
-  actual-result: |
-    Выбранные атегории и бренды никак не связаны между собой.
-
-- summary: |
-    Ценовой фильтр некорректно отображает цену товаров.
+    Не учитывается скидка в ценовом фильтре
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
@@ -82,7 +56,7 @@
     Неверное отображение, при вводе от 41$ могут отображться товары ценой от 39$.
 
 - summary: |
-    Не работает крестик для закрытия модального окна.
+    Не работает крестик в окне оформленного заказа
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
@@ -96,58 +70,48 @@
     Закрытия окна не происходит.
 
 - summary: |
-    Имеется неподписанный чекбокс.
+    Пустой чекбокс отображается в списке категорий
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
-    1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
-    2. Слева в категориях имеется неподписанный чекбокс.
+    1. Слева в категориях имеется неподписанный чекбокс.
   expected-result: |
     Чекбокс подписан и название соответствует его продукции. 
   actual-result: |
     Отсутсвует наименования чекбокса.
 
 - summary: |
-    Нет иконки на значке языка "English"
+    Нет картинки английского языка в языковом меню
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
-    1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
+    1. Открыть языковое меню
   expected-result: |
-    Возле наименования языка должен быть флаг.
+    Возле наименования языка должен быть флаг
   actual-result: |
-    Иконки флага нет.
+    Иконки флага нет
 
 - summary: |
     Нет возможности зарегистрироваться.
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
-    1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
+    no-data
   expected-result: |
     Имеется вкладка для регистрация.
   actual-result: |
     Возможности для регистрация  отсутствуют.
-
+    
 - summary: |
-    Нет возможности авторизоваться.
+    Ошибка при оформлении заказа
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
-    1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
+    1. Добавить товары в корзину
+    2. Отрыть DevTools
+    3. Оформить заказ
   expected-result: |
-    Имеется вкладка для авторизации.
+    Заказ оформлен
   actual-result: |
-    Возможности для авторизации отсутствуют.
-
-- summary: |
-    На странице нет функции для обратной связи.
-  environment: |
-    Version 128.0.6613.138 (Official Build) (64-bit)
-  steps-to-reproduce: |
-    1. Зайти на главную страницы. https://hexlet-products-store.vercel.app/
-  expected-result: |
-    Имеется вкладка для обратной связи.
-  actual-result: |
-    Вкладка для обратной связи отсутствует.
+    При оформлении заказа в DevTools показывает Failed status: 500. 
 
