@@ -1,60 +1,35 @@
 test-cases:
   - summary: |
-      Успешное добавление товара в корзину.
-    status: pass
-  
-  - summary: |
-      Отображение товаров в корзине.
+      Проверка добавления товара в корзину
     status: pass
 
   - summary: |
-      Успешная смена языка с английского на русский.
+      Проверка смены локализации на русский
     status: fail
 
   - summary: |
-      Успешная смена языка с русского на английский.
+      Проверка смены локализации на английский
     status: pass
 
   - summary: |
-      Сделать заказ добавленных в корзину товаров.
+      Проверка оформления заказа
     status: fail
 
   - summary: |
-      Адаптивность страницы на мобильных устройствах.
+      Проверка мобильной версии
     status: pass
 
   - summary: |
-      Проверка работы чекбоксов в Brand.
+      Проверка открытия карточки товара
     status: pass
-
-  - summary: |
-      Успешное открытие карточки товара.
-    status: pass
-
-  - summary: |
-      Проверка на корректный мэтч между категориями и брендами.
-    status: fail
 
   - summary: |
       Проверка фильтра ценового диапазона.
     status: fail
 
   - summary: |
-      Введение некорректной информации в строку Поиска товаров.
-    status: pass
-    
-  - summary: |
-      Успешная регистрация.
-    status: pass
-
-  - summary: |
-      Отправка обратной связи.
-    status: pass
- 
-  - summary: |
-      Успешная авторизация в систему.
-    status: pass
-    
+      Проверка поиска несуществующего товара
+    status: pass    
 
 bugreports:
   - summary: |
@@ -62,8 +37,7 @@ bugreports:
     environment: |
       Version 128.0.6613.138 (Official Build) (64-bit)
     steps-to-reproduce: 
-      1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Открыть вкладку переключения языков.
+      1. Открыть вкладку переключения языков.
     expected-result: |
       Должны быть флаги рядом с языками.
     actual-result: |
@@ -74,8 +48,7 @@ bugreports:
     environment: |
       Version 128.0.6613.138 (Official Build) (64-bit)
     steps-to-reproduce: 
-      1. Зайти на главную страницы https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Нажать на In-Stock.
+      1. Нажать на In-Stock.
     expected-result: 
       При включении In-Stock должны отображаться товары на складе и при выключенном которых нет на складе.
     actual-result: 
