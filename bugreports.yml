@@ -92,18 +92,7 @@
     Иконки флага нет
 
 - summary: |
-    Нет возможности зарегистрироваться.
-  environment: |
-    Version 128.0.6613.138 (Official Build) (64-bit)
-  steps-to-reproduce: |
-    no-data
-  expected-result: |
-    Имеется вкладка для регистрация.
-  actual-result: |
-    Возможности для регистрация  отсутствуют.
-    
-- summary: |
-    Ошибка при оформлении заказа
+    Ошибка 500 при оформлении заказа
   environment: |
     Version 128.0.6613.138 (Official Build) (64-bit)
   steps-to-reproduce: |
@@ -114,4 +103,3 @@
     Заказ оформлен
   actual-result: |
     При оформлении заказа в DevTools показывает Failed status: 500. 
-
